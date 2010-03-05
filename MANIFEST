@@ -1,0 +1,6 @@
+Makefile.PL
+MANIFEST
+README
+t/IRC-RemoteControl.t
+lib/IRC/RemoteControl.pm
+META.yml                                 Module meta-data (added by MakeMaker)
