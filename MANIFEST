@@ -1,6 +1,22 @@
-Makefile.PL
-MANIFEST
-README
-t/IRC-RemoteControl.t
+irc-remotecontrol.pl
 lib/IRC/RemoteControl.pm
+lib/IRC/RemoteControl/Personality/Flood.pm
+lib/IRC/RemoteControl/Personality/Webchat.pm
+lib/IRC/RemoteControl/Proxy.pm
+lib/IRC/RemoteControl/Proxy/Consumer.pm
+lib/IRC/RemoteControl/Proxy/HTTP.pm
+lib/IRC/RemoteControl/Proxy/HTTPS.pm
+lib/IRC/RemoteControl/Proxy/Proxy.pm
+lib/IRC/RemoteControl/Proxy/Proxy/Runnable.pm
+lib/IRC/RemoteControl/Proxy/SOCKS.pm
+lib/IRC/RemoteControl/Proxy/SSH.pm
+lib/IRC/RemoteControl/Proxy/Tunnel.pm
+lib/IRC/RemoteControl/Util.pm
+MANIFEST
+MANIFEST.SKIP
+README
+socks-proxies.txt.example
+ssh-proxies.txt.example
+t/IRC-RemoteControl.t
+webchat.pl
 META.yml                                 Module meta-data (added by MakeMaker)

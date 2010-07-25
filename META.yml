@@ -1,24 +1,29 @@
 --- #YAML:1.0
-name:               IRC-RemoteControl
-version:            0.01
-abstract:           Simple daemon for proxying irc connections
-author:
+name:                IRC-RemoteControl
+version:             0.03
+abstract:            Simple daemon for proxying irc connections
+license:             ~
+author:              
     - Thaddeus Wooster <wooster@cpan.org>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    AnyEvent:             0
-    AnyEvent::IRC::Client:  0
-    Moose:                0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    AnyEvent:                      0
+    AnyEvent::IRC:                 0
+    AnyEvent::IRC::Client:         0
+    AnyEvent::Socket:              0
+    AnyEvent::Subprocess:          0
+    Getopt::Long::Descriptive:     0
+    IO::Socket::Socks:             0
+    JSON::XS:                      0
+    Moose:                         0
+    MooseX::Getopt:                0
+    MooseX::Types::CheckedUtilExports: 0
+    namespace::autoclean:          0
+    Net::SSH2:                     0
+    parent:                        0
+    Socket:                        0
+    WWW::FreeProxyListsCom:        0
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
