@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                IRC-RemoteControl
-version:             0.03
+version:             0.04
 abstract:            Simple daemon for proxying irc connections
 license:             ~
 author:              

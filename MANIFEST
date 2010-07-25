@@ -19,4 +19,5 @@ socks-proxies.txt.example
 ssh-proxies.txt.example
 t/IRC-RemoteControl.t
 webchat.pl
+Makefile.PL
 META.yml                                 Module meta-data (added by MakeMaker)
